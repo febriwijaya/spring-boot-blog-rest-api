@@ -14,7 +14,7 @@ services:
     image: mysql:5.7
     environment:
       MYSQL_DATABASE: myblog
-      MYSQL_ROOT_PASSWORD:
+      MYSQL_ROOT_PASSWORD: root
     ports:
       - "3307:3306" # Menggunakan port 3307 pada host untuk dihubungkan ke port 3306 pada container
     volumes:
